@@ -4,7 +4,7 @@
 #        "C:\Program Files\FME\2024-2-3\fme.exe" "C:\Users\GavinJeter\OneDrive - Locus Limited\Documents\FME\Repositories\Training-LoggingWithPython\LoggingWithPython.fmw"
 #          --FME_LAUNCH_VIEWER_APP "YES"
 #    
-#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
+#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
 #!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON="#&lt;space&gt;Startup&lt;space&gt;Python&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;create&lt;space&gt;log&lt;space&gt;file&lt;space&gt;object&lt;lf&gt;log&lt;space&gt;=&lt;space&gt;fmeobjects.FMELogFile&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;initialize&lt;space&gt;flag&lt;lf&gt;logReport&lt;space&gt;=&lt;space&gt;0&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;define&lt;space&gt;callback&lt;space&gt;function&lt;space&gt;to&lt;space&gt;be&lt;space&gt;run&lt;space&gt;on&lt;space&gt;every&lt;space&gt;log&lt;space&gt;message&lt;lf&gt;def&lt;space&gt;logReporting&lt;openparen&gt;severity&lt;comma&gt;message&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;import&lt;space&gt;flag&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;global&lt;space&gt;logReport&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;set&lt;space&gt;flag&lt;space&gt;if&lt;space&gt;triggered&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;&lt;quote&gt;LogReporting&lt;quote&gt;&lt;space&gt;in&lt;space&gt;message:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;logReport&lt;space&gt;=&lt;space&gt;message&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;set&lt;space&gt;logfile&lt;space&gt;callback&lt;space&gt;function&lt;lf&gt;log.setCallBack&lt;openparen&gt;logReporting&lt;closeparen&gt;"
@@ -13,15 +13,15 @@
 #!   DESCRIPTION="&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This workspace is an example of how to read the Log in &amp;quot;Real-Time&amp;quot; as it is a very nuanced use-case.&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Learn about other use-cases here: &lt;a href=&quot;https://support.safe.com/hc/en-us/articles/25407477072141-How-to-extract-and-use-log-information-in-Workbench&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;How to extract and use log information in Workbench – FME Support Center&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline; color:#0078d4;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Created by Gavin Jeter, LOCUS&lt;/p&gt;"
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="8693.84 2517.61"
+#!   DOC_EXTENTS="8753.25 2517.61"
 #!   DOC_TOP_LEFT="-1056.26 -1300.24"
 #!   END_PYTHON="#&lt;space&gt;Shutdown&lt;space&gt;Python&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;dispose&lt;space&gt;of&lt;space&gt;log&lt;space&gt;object&lt;space&gt;&lt;openparen&gt;needed&lt;space&gt;since&lt;space&gt;Python&lt;space&gt;API&lt;space&gt;wraps&lt;space&gt;C++&lt;closeparen&gt;&lt;lf&gt;log&lt;space&gt;=&lt;space&gt;None"
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="24825"
 #!   FME_BULK_MODE_THRESHOLD="2000"
-#!   FME_DOCUMENT_GUID="991cc8d0-afab-4423-a836-2b9642ff457c"
-#!   FME_DOCUMENT_PRIORGUID="be28823f-7044-42d2-91ce-9a3f796d0cd7,e5117f98-23b7-4199-98d0-61f68712ff59"
+#!   FME_DOCUMENT_GUID="34f25f19-5b24-4a1b-bf6b-490ae7d79b09"
+#!   FME_DOCUMENT_PRIORGUID="be28823f-7044-42d2-91ce-9a3f796d0cd7,e5117f98-23b7-4199-98d0-61f68712ff59,991cc8d0-afab-4423-a836-2b9642ff457c"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_NAMES_ENCODING="UTF-8"
@@ -31,7 +31,7 @@
 #!   HISTORY="2025-04-03,G&lt;space&gt;Jeter,Initial&lt;space&gt;Creation"
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2024.2.3.0 (20250130 - Build 24825 - WIN64)"
-#!   LAST_SAVE_DATE="2025-04-04T07:34:51"
+#!   LAST_SAVE_DATE="2025-04-04T09:36:46"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -50,7 +50,7 @@
 #!   TITLE="LoggingWithPython"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="5730.15 199.117"
+#!   VIEW_POSITION="5287.66 290.379"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="113"
@@ -179,34 +179,18 @@
 #!   ANCHORED_NODE="28"
 #! />
 #! <COMMENT
-#!   IDENTIFIER="34"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;See Other Workspace for configuration&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="5650.0565005650078 -508.7556875568755"
-#!   TOP_LEFT="5650.0565005650078 -508.7556875568755"
-#!   BOTTOM_RIGHT="6086.0466885918877 -509.7556875568755"
-#!   BOUNDING_RECT="5650.0565005650078 -508.7556875568755 435.99018802688028 1"
-#!   ORDER="500000000000020"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   CUSTOM_USER_COLOR="false"
-#!   UUID="{39cd4311-48f1-46b4-9df1-ed81b3dbcda1}"
-#!   COLOUR="0.32549019607843138,0.62352941176470589,0.92549019607843142,1"
-#!   SIZE_POLICY="10"
-#!   ANCHORED_NODE="31"
-#! />
-#! <COMMENT
 #!   IDENTIFIER="37"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;You want to Kill the workspace immediately if there is an ERROR, but you also want the Email to fire off prior to that, so you get a notification that something went wrong&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="6398.5586255862563 -564.87674083090042"
-#!   TOP_LEFT="6398.5586255862563 -564.87674083090042"
-#!   BOTTOM_RIGHT="7131.2802965529663 -869.87949085840069"
-#!   BOUNDING_RECT="6398.5586255862563 -564.87674083090042 732.72167096670967 305.00275002750027"
+#!   POSITION="6964.2722473242429 -620.18702844705081"
+#!   TOP_LEFT="6964.2722473242429 -620.18702844705081"
+#!   BOTTOM_RIGHT="7696.9939182909529 -925.18977847455108"
+#!   BOUNDING_RECT="6964.2722473242429 -620.18702844705081 732.72167096670967 305.00275002750027"
 #!   ORDER="500000000000022"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
 #!   UUID="{ef0177ba-9c5b-41ed-801b-2fb7919ec2af}"
-#!   COLOUR="0.32549019607843138,0.62352941176470589,0.92549019607843142,1"
+#!   COLOUR="1,0.95686274509803926,0.80000000000000004,0.90196078431372551"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="35"
 #! />
@@ -229,10 +213,10 @@
 #! <COMMENT
 #!   IDENTIFIER="42"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;See Other Workspace for configuration&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="6960.9527021787208 177.55304539346764"
-#!   TOP_LEFT="6960.9527021787208 177.55304539346764"
-#!   BOTTOM_RIGHT="7396.9428902056006 176.55304539346764"
-#!   BOUNDING_RECT="6960.9527021787208 177.55304539346764 435.99018802688028 1"
+#!   POSITION="7005.2009322716422 202.44267482073539"
+#!   TOP_LEFT="7005.2009322716422 202.44267482073539"
+#!   BOTTOM_RIGHT="7441.191120298522 201.44267482073539"
+#!   BOUNDING_RECT="7005.2009322716422 202.44267482073539 435.99018802688028 1"
 #!   ORDER="500000000000020"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -258,6 +242,54 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="0"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="51"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;See Other Workspace for configuration&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="6140.779184268612 -647.40369068797486"
+#!   TOP_LEFT="6140.779184268612 -647.40369068797486"
+#!   BOTTOM_RIGHT="6576.7693722954918 -648.40369068797486"
+#!   BOUNDING_RECT="6140.779184268612 -647.40369068797486 435.99018802688028 1"
+#!   ORDER="500000000000020"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{f0c052fd-ea8e-4ad3-b235-0c533df2658e}"
+#!   COLOUR="0.32549019607843138,0.62352941176470589,0.92549019607843142,1"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="50"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="52"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Email Subject, Body&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="5612.5561255612547 -739.06647517802594"
+#!   TOP_LEFT="5612.5561255612547 -739.06647517802594"
+#!   BOTTOM_RIGHT="6048.5463135881346 -740.06647517802594"
+#!   BOUNDING_RECT="5612.5561255612547 -739.06647517802594 435.99018802688028 1"
+#!   ORDER="500000000000028"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{bc1c8a50-740e-4de2-b29a-951972a38e9d}"
+#!   COLOUR="0.32549019607843138,0.62352941176470589,0.92549019607843142,1"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="54"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="53"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Email Subject, Body&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="6357.9973963149832 30.125259189099779"
+#!   TOP_LEFT="6357.9973963149832 30.125259189099779"
+#!   BOTTOM_RIGHT="6793.9875843418631 29.125259189099779"
+#!   BOUNDING_RECT="6357.9973963149832 30.125259189099779 435.99018802688028 1"
+#!   ORDER="500000000000028"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{d41632cf-6899-402e-99aa-69bf183e06b1}"
+#!   COLOUR="0.32549019607843138,0.62352941176470589,0.92549019607843142,1"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="44"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -273,7 +305,7 @@
 #!   BOUNDING_RECT="-1056.2605626056261 925.00925009250091 8693.8369383693844 2225.2454667403808"
 #!   STICKY="true"
 #!   COLOUR="0.32549019607843138,0.62352941176470589,0.92549019607843142,1"
-#!   CONTENTS="14 45 13 6 19 10 17 34 11 39 31 12 20 33 21 29 26 32 8 27 49 35 43 16 37 18 42 28 38 40 4 48 9 5 2 25 3 15 30 44 46 36 7 "
+#!   CONTENTS="44 52 30 56 25 10 9 21 16 45 42 28 51 46 4 5 57 7 6 50 26 2 12 29 35 27 43 11 39 13 8 20 55 18 19 38 3 58 15 17 40 53 14 54 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -609,56 +641,11 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="31"
-#!   TYPE="safe.emailer.Emailer"
-#!   VERSION="1"
-#!   POSITION="5650.0565005650078 -693.75693756937562"
-#!   BOUNDING_RECT="5650.0565005650078 -693.75693756937562 436 65"
-#!   ORDER="500000000000019"
-#!   PARMS_EDITED="true"
-#!   ENABLED="false"
-#!   LAST_PARM_EDIT="24825"
-#! >
-#!     <OUTPUT_FEAT NAME="Sent"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="logMessage" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="logMessage_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="logMessage_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="logMessage_message" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="logMessage" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="logMessage_type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="logMessage_timestamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="logMessage_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ADDRESSING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTACHGROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="ATTACHMENTTABLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="BCC" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="BODY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CC" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FROM" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="HEADERGROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="HEADERTABLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SERVICE" PARM_VALUE="Generic SMTP"/>
-#!     <XFORM_PARM PARM_NAME="SERVICEGROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SMTP_CONNECTION" PARM_VALUE="HOST;;PORT;25;ENCRYPTION;None;TIMEOUT;60;AUTHENTICATION;No;USERNAME;&lt;Unused&gt;;PASSWORD;&lt;Unused&gt;;FME_CONTROLLER_QUERY_FILE;&quot;dependencies/Generic SMTP.fme&quot;;FME_CONTROLLER_CHOICE;&quot;Generic SMTP&quot;"/>
-#!     <XFORM_PARM PARM_NAME="SUBJECT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TO" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Emailer"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="35"
 #!   TYPE="Terminator"
 #!   VERSION="3"
-#!   POSITION="6436.0590005900058 -938.75693756937562"
-#!   BOUNDING_RECT="6436.0590005900058 -938.75693756937562 436 65"
+#!   POSITION="6964.2722473242429 -994.06722518552601"
+#!   BOUNDING_RECT="6964.2722473242429 -994.06722518552601 436 65"
 #!   ORDER="500000000000021"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -720,19 +707,21 @@
 #!   IDENTIFIER="40"
 #!   TYPE="safe.emailer.Emailer"
 #!   VERSION="1"
-#!   POSITION="6960.9428902056006 -43.579460342468465"
-#!   BOUNDING_RECT="6960.9428902056006 -43.579460342468465 436 65"
+#!   POSITION="7005.191120298522 -24.220859676815778"
+#!   BOUNDING_RECT="7005.191120298522 -24.220859676815778 436 65"
 #!   ORDER="500000000000019"
 #!   PARMS_EDITED="true"
-#!   ENABLED="false"
+#!   ENABLED="true"
 #!   LAST_PARM_EDIT="24825"
 #! >
 #!     <OUTPUT_FEAT NAME="Sent"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="logMessage" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="logMessage" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -741,17 +730,17 @@
 #!     <XFORM_PARM PARM_NAME="ATTACHGROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #!     <XFORM_PARM PARM_NAME="ATTACHMENTTABLE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="BCC" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="BODY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="BODY" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_body&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="CC" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="CONTENT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FROM" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FROM" PARM_VALUE="serviceAccount&lt;at&gt;yourOrg.com"/>
 #!     <XFORM_PARM PARM_NAME="HEADERGROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #!     <XFORM_PARM PARM_NAME="HEADERTABLE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SERVICE" PARM_VALUE="Generic SMTP"/>
 #!     <XFORM_PARM PARM_NAME="SERVICEGROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SMTP_CONNECTION" PARM_VALUE="HOST;;PORT;25;ENCRYPTION;None;TIMEOUT;60;AUTHENTICATION;No;USERNAME;&lt;Unused&gt;;PASSWORD;&lt;Unused&gt;;FME_CONTROLLER_QUERY_FILE;&quot;dependencies/Generic SMTP.fme&quot;;FME_CONTROLLER_CHOICE;&quot;Generic SMTP&quot;"/>
-#!     <XFORM_PARM PARM_NAME="SUBJECT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TO" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SMTP_CONNECTION" PARM_VALUE="HOST;smtp.yourOrg;PORT;25;ENCRYPTION;None;TIMEOUT;60;AUTHENTICATION;NO;USERNAME;&lt;Unused&gt;;PASSWORD;&lt;Unused&gt;;FME_CONTROLLER_QUERY_FILE;dependencies&lt;solidus&gt;Generic&lt;space&gt;SMTP.fme;FME_CONTROLLER_CHOICE;Generic&lt;space&gt;SMTP"/>
+#!     <XFORM_PARM PARM_NAME="SUBJECT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_subject&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TO" PARM_VALUE="monitoredInbox&lt;at&gt;yourOrg.com"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Emailer_2"/>
 #! </TRANSFORMER>
@@ -759,8 +748,8 @@
 #!   IDENTIFIER="44"
 #!   TYPE="AttributeCreator"
 #!   VERSION="10"
-#!   POSITION="6307.9875843418631 -216.25156251562512"
-#!   BOUNDING_RECT="6307.9875843418631 -216.25156251562512 436 65"
+#!   POSITION="6357.9875843418631 -113.92753042574668"
+#!   BOUNDING_RECT="6357.9875843418631 -113.92753042574668 436 65"
 #!   ORDER="500000000000025"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -768,11 +757,12 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="logMessage" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; _body SET_TO Email&lt;space&gt;Body&lt;space&gt;to&lt;space&gt;include&lt;space&gt;whatever&lt;space&gt;message&lt;space&gt;you&lt;space&gt;want&lt;comma&gt;&lt;space&gt;but&lt;space&gt;you&lt;space&gt;will&lt;space&gt;definitly&lt;space&gt;want&lt;space&gt;to&lt;space&gt;include&lt;space&gt;the&lt;space&gt;concatenated:&lt;lf&gt;&lt;lf&gt;&lt;at&gt;Value&lt;openparen&gt;logMessage&lt;closeparen&gt; varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; _subject SET_TO Warning&lt;space&gt;-&lt;space&gt;$(FME_WORKSPACE_NAME) varchar&lt;openparen&gt;200&lt;closeparen&gt;  _body SET_TO Email&lt;space&gt;Body&lt;space&gt;to&lt;space&gt;include&lt;space&gt;whatever&lt;space&gt;message&lt;space&gt;you&lt;space&gt;want&lt;comma&gt;&lt;space&gt;but&lt;space&gt;you&lt;space&gt;will&lt;space&gt;definitly&lt;space&gt;want&lt;space&gt;to&lt;space&gt;include&lt;space&gt;the&lt;space&gt;concatenated:&lt;lf&gt;&lt;lf&gt;&lt;at&gt;Value&lt;openparen&gt;logMessage&lt;closeparen&gt; varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE" PARM_VALUE="NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -784,20 +774,86 @@
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_IS_LOOKUP="true" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="48"
-#!   TYPE="Terminator"
-#!   VERSION="3"
-#!   POSITION="6960.9428902056006 -383.7556875568755"
-#!   BOUNDING_RECT="6960.9428902056006 -383.7556875568755 436 65"
-#!   ORDER="500000000000027"
+#!   IDENTIFIER="50"
+#!   TYPE="safe.emailer.Emailer"
+#!   VERSION="1"
+#!   POSITION="6140.7693722954918 -874.06722518552601"
+#!   BOUNDING_RECT="6140.7693722954918 -874.06722518552601 436 65"
+#!   ORDER="500000000000019"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="24825"
 #! >
-#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="****************************&lt;lf&gt;&lt;lf&gt;Translation&lt;space&gt;Terminated&lt;lf&gt;&lt;lf&gt;&lt;at&gt;Value&lt;openparen&gt;fme_rejection_code&lt;closeparen&gt;&lt;lf&gt;&lt;at&gt;Value&lt;openparen&gt;fme_rejection_message&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;at&gt;Value&lt;openparen&gt;logMessage&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;*****************************"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <OUTPUT_FEAT NAME="Sent"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage_message" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage_type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage_timestamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ADDRESSING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTACHGROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="ATTACHMENTTABLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="BCC" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="BODY" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_body&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CC" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FROM" PARM_VALUE="serviceAccount&lt;at&gt;yourOrg.com"/>
+#!     <XFORM_PARM PARM_NAME="HEADERGROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="HEADERTABLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SERVICE" PARM_VALUE="Generic SMTP"/>
+#!     <XFORM_PARM PARM_NAME="SERVICEGROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SMTP_CONNECTION" PARM_VALUE="HOST;smtp.yourOrg;PORT;25;ENCRYPTION;None;TIMEOUT;60;AUTHENTICATION;NO;USERNAME;&lt;Unused&gt;;PASSWORD;&lt;Unused&gt;;FME_CONTROLLER_QUERY_FILE;dependencies&lt;solidus&gt;Generic&lt;space&gt;SMTP.fme;FME_CONTROLLER_CHOICE;Generic&lt;space&gt;SMTP"/>
+#!     <XFORM_PARM PARM_NAME="SUBJECT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_subject&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TO" PARM_VALUE="monitoredInbox&lt;at&gt;yourOrg.com"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_2"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Emailer_3"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="54"
+#!   TYPE="AttributeCreator"
+#!   VERSION="10"
+#!   POSITION="5612.5561255612547 -874.06722518552601"
+#!   BOUNDING_RECT="5612.5561255612547 -874.06722518552601 436 65"
+#!   ORDER="500000000000025"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="24825"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="logMessage_message" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; _subject SET_TO ERROR&lt;space&gt;-&lt;space&gt;$(FME_WORKSPACE_NAME) varchar&lt;openparen&gt;200&lt;closeparen&gt;  _body SET_TO Email&lt;space&gt;Body&lt;space&gt;to&lt;space&gt;include&lt;space&gt;whatever&lt;space&gt;message&lt;space&gt;you&lt;space&gt;want&lt;comma&gt;&lt;space&gt;but&lt;space&gt;you&lt;space&gt;will&lt;space&gt;definitly&lt;space&gt;want&lt;space&gt;to&lt;space&gt;include&lt;space&gt;some&lt;space&gt;version&lt;space&gt;of&lt;space&gt;the&lt;space&gt;logMessage&lt;space&gt;details&lt;lf&gt;&lt;lf&gt;&lt;at&gt;Value&lt;openparen&gt;logMessage&lt;closeparen&gt; varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE" PARM_VALUE="NO_OP"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="USER_MODIFIED_ATTRIBUTE_TYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_IS_LOOKUP="true" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -952,21 +1008,6 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="36"
-#!   SOURCE_NODE="31"
-#!   TARGET_NODE="35"
-#!   SOURCE_PORT_DESC="fo 0 Sent"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.050980392156862744,0.050980392156862744,0.047058823529411764,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="45"
 #!   SOURCE_NODE="38"
 #!   TARGET_NODE="44"
@@ -997,9 +1038,39 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="32"
+#!   IDENTIFIER="55"
+#!   SOURCE_NODE="50"
+#!   TARGET_NODE="35"
+#!   SOURCE_PORT_DESC="fo 0 Sent"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.050980392156862744,0.050980392156862744,0.047058823529411764,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="58"
+#!   SOURCE_NODE="54"
+#!   TARGET_NODE="50"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.050980392156862744,0.050980392156862744,0.047058823529411764,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="56"
 #!   SOURCE_NODE="28"
-#!   TARGET_NODE="31"
+#!   TARGET_NODE="54"
 #!   SOURCE_PORT_DESC="fo 1 Error"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -1012,24 +1083,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="49"
-#!   SOURCE_NODE="40"
-#!   TARGET_NODE="48"
-#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;REJECTED&lt;gt&gt;"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.050980392156862744,0.050980392156862744,0.047058823529411764,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="33"
+#!   IDENTIFIER="57"
 #!   SOURCE_NODE="28"
-#!   TARGET_NODE="31"
+#!   TARGET_NODE="54"
 #!   SOURCE_PORT_DESC="fo 2 &lt;lt&gt;lt&lt;gt&gt;UNFILTERED&lt;lt&gt;gt&lt;gt&gt;"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -1131,7 +1187,7 @@ INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO Featur
 FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME { FeatureMerger }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    INPUT REFERENCER FEATURE_TYPE Creator_CREATED    INPUT REFERENCEE FEATURE_TYPE Cloner_COPY    REFERENCE_INFO { $(FeatureMerger_REFERENCE_INFO) }    REFERENCE_TABLE { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_creation_instance<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_creation_instance<closeparen>,FeatureMerger) AUTO }    ATTR_ACCUM_MODE { "HANDLE_CONFLICT" }    ATTR_CONFLICT_RES { "REQUESTOR_IF_CONFLICT" }    IGNORE_NULLS { "No" }    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 { No }    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE { <Unused> }    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES { NO }    REFERENCEES_FIRST { No }    REJECT_INVALID_GEOM YES    CLEANING_TOLERANCE { <Unused> }    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    COMPARE_WHITESPACE Yes    OUTPUT { COMPLETE FEATURE_TYPE FeatureMerger_MERGED         }    OUTPUT { REJECTED FEATURE_TYPE FeatureMerger_<REJECTED>         }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {Logger_772153f0_ed04_4e5e_9f8b_2b47a4b005240} ]
+INCLUDE [ FME_CleanseFMEUUID {Logger_3f227bac_90a2_4393_827b_8ce0b09614830} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -1141,7 +1197,7 @@ MACRO LOGGABLE_XFORMER_NAME Logger
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Logger_Logger }    INPUT  FEATURE_TYPE FeatureMerger_MERGED    OUTPUT { FEATURE_TYPE Logger_LOGGED                  @Log(ENCODED, "$(LOGGABLE_XFORMER_NAME$encode):<space>@EvaluateExpression(FDIV,STRING_ENCODED,LogReporting<space>|<space>WARNING<space>|<space><at>DateTimeFormat<openparen><at>ReplaceRegularExpression<openparen><at>DateTimeNow<openparen>UTC<closeparen><comma><quote><backslash>.<backslash>d+<quote><comma><quote><quote><comma>caseSensitive=TRUE<closeparen><comma>ISO<closeparen><space>UTC<space>|<space>Message:,Logger)","20","20","",WARN,LOG_ONLY,$(FME_UUID_SAFE))                   }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {Logger_2_2814b95f_7f37_4bf5_9d97_1cfead14f3600} ]
+INCLUDE [ FME_CleanseFMEUUID {Logger_2_de257b8d_51aa_447e_90b1_1ee3a1d43caa0} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -1164,9 +1220,29 @@ FACTORY_DEF {*} TestFactory FACTORY_NAME { TestFilter } INPUT FEATURE_TYPE TestF
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AggregateFactory    FACTORY_NAME { Aggregator }    INPUT  FEATURE_TYPE TestFilter_Warning    MODE { ONE_LEVEL }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    REMOVE_GEOMETRY { NO }    ACCUMULATE_ATTRIBUTES { None }    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE { <Unused> }    CONCATENATE_FIELDS { logMessage }    SEPARATOR { <lf> }    PRODUCE_MULTIS { YES }    ALL_ATTRS_LIST_GROUP_BY_MODE ADD    OUTPUT { AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE          }
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { AttributeCreator }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    NUM_OF_COLUMNS 5    ATTR_ACTION { "" "_body" "SET_TO" "Email<space>Body<space>to<space>include<space>whatever<space>message<space>you<space>want<comma><space>but<space>you<space>will<space>definitly<space>want<space>to<space>include<space>the<space>concatenated:<lf><lf><at>Value<openparen>logMessage<closeparen>" "varchar<openparen>200<closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT        }
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { AttributeCreator }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    NUM_OF_COLUMNS 5    ATTR_ACTION { "" "_subject" "SET_TO" "Warning<space>-<space>$(FME_WORKSPACE_NAME$encode)" "varchar<openparen>200<closeparen>" }      ATTR_ACTION { "" "_body" "SET_TO" "Email<space>Body<space>to<space>include<space>whatever<space>message<space>you<space>want<comma><space>but<space>you<space>will<space>definitly<space>want<space>to<space>include<space>the<space>concatenated:<lf><lf><at>Value<openparen>logMessage<closeparen>" "varchar<openparen>200<closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT        }
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Emailer_2 (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeCreator_OUTPUT
+# Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
+# FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
+# our table elements :-(
+# The python later expects the first character to be a space so all is well.
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Emailer_2_CATCHER }    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT { FEATURE_TYPE Emailer_2_READY       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       ___fme_emailer_service           "Generic SMTP"       ___fme_emailer_connection        "HOST;smtp.yourOrg;PORT;25;ENCRYPTION;None;TIMEOUT;60;AUTHENTICATION;NO;USERNAME;<Unused>;PASSWORD;<Unused>"       ___fme_emailer_from              "serviceAccount<at>yourOrg.com"       ___fme_emailer_to                "monitoredInbox<at>yourOrg.com"       ___fme_emailer_cc                ""       ___fme_emailer_bcc               ""       ___fme_emailer_subject           "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_subject<closeparen>,Emailer_2)"       ___fme_emailer_body              "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_body<closeparen>,Emailer_2)"       ___fme_emailer_attachments       " "       ___fme_emailer_xformerName       "Emailer_2"       ___fme_emailer_headers           " "   }
+FACTORY_DEF {*} PythonFactory    FACTORY_NAME { Emailer_2_CALLER }    INPUT { FEATURE_TYPE Emailer_2_READY }    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME fmepy_emailer.Emailer    OUTPUT { PYOUTPUT FEATURE_TYPE Emailer_2_PROCESSED }
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { Emailer_2_ROUTER }    INPUT { FEATURE_TYPE Emailer_2_PROCESSED }    TEST &fme_rejection_code == ""    OUTPUT { FAILED FEATURE_TYPE Emailer_2_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)        }
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME Emailer_2_<Rejected> INPUT FEATURE_TYPE Emailer_2_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Emailer_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { AttributeCreator_2 }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE TestFilter_Error    INPUT  FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    NUM_OF_COLUMNS 5    ATTR_ACTION { "" "_subject" "SET_TO" "ERROR<space>-<space>$(FME_WORKSPACE_NAME$encode)" "varchar<openparen>200<closeparen>" }      ATTR_ACTION { "" "_body" "SET_TO" "Email<space>Body<space>to<space>include<space>whatever<space>message<space>you<space>want<comma><space>but<space>you<space>will<space>definitly<space>want<space>to<space>include<space>some<space>version<space>of<space>the<space>logMessage<space>details<lf><lf><at>Value<openparen>logMessage<closeparen>" "varchar<openparen>200<closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT        }
+# -------------------------------------------------------------------------
+# Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
+# FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
+# our table elements :-(
+# The python later expects the first character to be a space so all is well.
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Emailer_3_CATCHER }    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    OUTPUT { FEATURE_TYPE Emailer_3_READY       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       ___fme_emailer_service           "Generic SMTP"       ___fme_emailer_connection        "HOST;smtp.yourOrg;PORT;25;ENCRYPTION;None;TIMEOUT;60;AUTHENTICATION;NO;USERNAME;<Unused>;PASSWORD;<Unused>"       ___fme_emailer_from              "serviceAccount<at>yourOrg.com"       ___fme_emailer_to                "monitoredInbox<at>yourOrg.com"       ___fme_emailer_cc                ""       ___fme_emailer_bcc               ""       ___fme_emailer_subject           "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_subject<closeparen>,Emailer_3)"       ___fme_emailer_body              "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_body<closeparen>,Emailer_3)"       ___fme_emailer_attachments       " "       ___fme_emailer_xformerName       "Emailer_3"       ___fme_emailer_headers           " "   }
+FACTORY_DEF {*} PythonFactory    FACTORY_NAME { Emailer_3_CALLER }    INPUT { FEATURE_TYPE Emailer_3_READY }    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME fmepy_emailer.Emailer    OUTPUT { PYOUTPUT FEATURE_TYPE Emailer_3_PROCESSED }
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { Emailer_3_ROUTER }    INPUT { FEATURE_TYPE Emailer_3_PROCESSED }    TEST &fme_rejection_code == ""    OUTPUT { PASSED FEATURE_TYPE Emailer_3_Sent         @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)          }    OUTPUT { FAILED FEATURE_TYPE Emailer_3_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)        }
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME Emailer_3_<Rejected> INPUT FEATURE_TYPE Emailer_3_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Emailer_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 # The default behaviour is to abort on any feature entering the transformer.
 # If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
@@ -1174,19 +1250,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "Emailer_2 (Disabled) Nuker"   INPUT FEA
 # __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
 # somesuch.
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF {*} TestFactory    FACTORY_NAME { Terminator_2 }    INPUT  FEATURE_TYPE Emailer_2_<REJECTED>    TEST { "$(_WB_BYPASS_TERMINATION)" == Yes }    OUTPUT { PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,****************************<lf><lf>Translation<space>Terminated<lf><lf><at>Value<openparen>fme_rejection_code<closeparen><lf><at>Value<openparen>fme_rejection_message<closeparen><lf><lf><at>Value<openparen>logMessage<closeparen><lf><lf><lf>*****************************,Terminator_2)")       @SupplyAttributes(_wb_termination_xformer,"Terminator_2")       @SupplyAttributes(_wb_termination_feature,Yes) }    OUTPUT { FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,****************************<lf><lf>Translation<space>Terminated<lf><lf><at>Value<openparen>fme_rejection_code<closeparen><lf><at>Value<openparen>fme_rejection_message<closeparen><lf><lf><at>Value<openparen>logMessage<closeparen><lf><lf><lf>*****************************,Terminator_2)") }
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Emailer (Disabled) Nuker"   INPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>   INPUT FEATURE_TYPE TestFilter_Error
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME Emailer_<Rejected> INPUT FEATURE_TYPE Emailer_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Emailer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
-# The default behaviour is to abort on any feature entering the transformer.
-# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
-# then the features will instead be passed through with a feature type of
-# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
-# somesuch.
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF {*} TestFactory    FACTORY_NAME { Terminator }    INPUT  FEATURE_TYPE Emailer_Sent    TEST { "$(_WB_BYPASS_TERMINATION)" == Yes }    OUTPUT { PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,****************************<lf><lf>Translation<space>Terminated<lf><lf>EMAIL<space>SENT<lf><lf><at>Value<openparen>logMessage_message<closeparen><lf><lf><lf>*****************************,Terminator)")       @SupplyAttributes(_wb_termination_xformer,"Terminator")       @SupplyAttributes(_wb_termination_feature,Yes) }    OUTPUT { FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,****************************<lf><lf>Translation<space>Terminated<lf><lf>EMAIL<space>SENT<lf><lf><at>Value<openparen>logMessage_message<closeparen><lf><lf><lf>*****************************,Terminator)") }
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { Terminator }    INPUT  FEATURE_TYPE Emailer_3_Sent    TEST { "$(_WB_BYPASS_TERMINATION)" == Yes }    OUTPUT { PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,****************************<lf><lf>Translation<space>Terminated<lf><lf>EMAIL<space>SENT<lf><lf><at>Value<openparen>logMessage_message<closeparen><lf><lf><lf>*****************************,Terminator)")       @SupplyAttributes(_wb_termination_xformer,"Terminator")       @SupplyAttributes(_wb_termination_feature,Yes) }    OUTPUT { FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,****************************<lf><lf>Translation<space>Terminated<lf><lf>EMAIL<space>SENT<lf><lf><at>Value<openparen>logMessage_message<closeparen><lf><lf><lf>*****************************,Terminator)") }
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC __WB_BYPASS_TERMINATOR__ <at>Tcl2<openparen>FME_StatMessage<space>818062<space><opencurly><at>Value<openparen>_wb_termination_message<closeparen><space><openparen><at>Value<openparen>_wb_termination_xformer<closeparen><closeparen><closecurly><space>818063<closeparen> TO FME_GENERIC __WB_BYPASS_TERMINATOR__ __wb_out_feat_type__,__WB_BYPASS_TERMINATOR__ GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
